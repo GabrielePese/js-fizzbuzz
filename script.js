@@ -9,10 +9,18 @@
 // Buon divertimento
 var num = 0;
 
-while (num <=100) {
+
+ // var lista = []
+
+ while (num <=100) {
   num +=1;
+  // lista.push(num)
+
+  // document.getElementById("numeri").innerHTML = lista
+
 
   if (num%3 == 0 && num%5 == 0) {
+    // document.getElementById("numeri").innerHTML = "fizzBuzz"
     console.log("FizzBuzz");
 
   }
