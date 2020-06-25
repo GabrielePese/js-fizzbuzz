@@ -7,22 +7,25 @@
 // Vi ho messo le slide con i jsnack di stamattina e, appena smette di convertire, metterò anche il video a disposizione.
 // Sotto avete il codice che ho scritto durante la lezione.
 // Buon divertimento
-var num = 1;
+var num = 0;
 
 while (num <=100) {
-  console.log(num);
   num +=1;
 
-  if (num%3 == 1) {
-    console.log(num == "Fizz");
+  if (num%3 == 0 && num%5 == 0) {
+    console.log("FizzBuzz");
+
+  }
+  else if (num%3 == 0) {
+    console.log("Fizz")
 
   }
   else if (num%5 == 0) {
-    console.log(num == "Buzz")
+    console.log("Buzz")
 
   }
-  else if (num%3 == 0 && num&5 == 0) {
-    console.log(nuum == "FizzBuzz")
+  else {
+    console.log(num);
 
   }
 }
